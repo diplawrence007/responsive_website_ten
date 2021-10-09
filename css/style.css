@@ -1,0 +1,289 @@
+.container{max-width:969px}
+body{
+font-family: 'PT Sans', sans-serif;
+}
+h1{
+	font-size:48px;
+	font-weight:700
+}
+h2{
+	font-size:22px
+}
+h3{
+	font-size:20px
+}
+p{font-size:16px}
+.navbar-custom .navbar-toggle {
+border-color: #fed136;
+font-family: 'Titillium Web', sans-serif;
+text-transform: uppercase;
+color: white;
+font-size: 12px;
+margin-top: 23px;
+margin-bottom: 22px;
+background: #f06000;
+}
+
+.navbar-custom .nav li a {
+letter-spacing: 1px;
+color: white;
+
+font-size: 22px;
+font-weight: 700;
+color: black;
+}
+.navbar-custom .nav li a:hover{
+	color: red;
+border-bottom: 1px solid red;
+}
+.navbar-custom .nav li{
+padding-right: 3px;
+padding-top: 0px;
+	
+}
+.navbar-default {
+	border: none;
+}
+.navbar-custom .nav li span{
+padding-left:5px
+}
+.navbar-brand {
+	float: left;
+	height: 50px;
+	padding: 0px 15px;
+	font-size: 18px;
+	line-height: 20px;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+	padding-top: 62px;
+	
+	
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+	padding-top: 21px;
+  }
+  
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #a08d11;
+padding: 21px 0px 21px 0px;
+  }
+  .navbar-custom.affix .navbar-brand  img{
+    font-size: 1.5em;width:60%
+  }
+  
+}
+
+.navbar-right {
+	margin-right: -15px;
+	padding-top: 10px;
+}
+.slider{
+	background:#fcdb00;
+	padding: 180px 0px 204px 0px;
+}
+.form-control {
+	display: block;
+	width: 79%;
+	height: 48px;
+	padding: 0px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-group {
+	max-width: 740px;
+	margin: 0 auto;
+	position: relative;
+}
+.btn-default {
+color: #333;
+background-color: #fcdb00;
+position: absolute;
+top: 0px;
+right: 0px;
+text-transform: uppercase;
+padding: 12px 38px;
+font-size: 16px;
+border-radius: 3px;
+border: none;
+}
+
+footer{
+	background:#010101;
+	color:#9c9c9c;
+	padding: 40px 0px 114px 0px;
+}
+.check-list li{
+	list-style:none;
+	color:#9c9c9c;
+}
+.check-list{
+	padding-left: 50px;
+}
+.check-list li a{
+
+	color:#9c9c9c;
+}
+.Inspire h1{
+	padding-top: 100px;
+}
+.Inspire h3{
+	padding: 6px 0px 21px 0px;
+}
+.banner-icon img{
+	padding-right: 34px;
+}
+
+.Inspire-img img{
+	padding: 49px 0px 0px 136px;
+width: 100%;
+}
+.Tinyone{
+	background:#ffffff;
+	padding:100px 0px 20px 0px
+}
+.Tinyone h3{
+color: #797c81;
+line-height: 24px;
+}
+
+.Fully-Responsive{
+	padding:30px 0px
+}
+
+.footer-top{
+	background:#010101;
+	padding: 59px 0px 68px 0px;
+}
+.Keep-in h1{
+	color:#fcdb00;
+	font-size: 32px;
+}
+.Keep-in h3{
+	color:#747474;
+	padding-bottom:30px
+}
+
+.footer-icon i{
+	margin-right:20px
+}
+.footer-icon{
+	padding:60px 0px 20px 0px
+}
+.fa-facebook{
+font-size: 22px;
+background: black;
+color: #fcdb00;
+padding: 3px 3px 2px 9px;
+border-radius: 6px;
+}
+.nav-icon .fa-twitter{
+background: black;
+color: #fcdb00;
+padding: 3px 3px;
+font-size: 22px;
+border-radius: 8px;
+}
+.fa-google-plus{
+background: black;
+color: #fcdb00;
+padding: 3px 0px;
+font-size: 22px;
+border-radius: 8px;
+}
+.fa-pinterest-p{
+background: black;
+color: #fcdb00;
+padding: 3px 7px 3px 5px;
+font-size: 22px;
+border-radius: 8px;
+}
+.nav-icon i{
+	margin-right: 21px;
+}
+.dropdown-nav{
+	background:none;
+	border:none;
+	font-size: 24px;
+padding-top: 4px;
+}
+.Responsive-img img{
+	width:70%;
+	padding-bottom: 76px;
+}
+.Responsive{
+	padding-top: 48px;
+}
+.download{
+	padding-top: 36px;
+}
+.Responsive h2{
+	color:#010101
+}
+.Responsive p{
+	color:#929292
+}
+.Tinyone h1{
+	font-size:32px
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
